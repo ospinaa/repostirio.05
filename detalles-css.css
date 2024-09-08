@@ -1,0 +1,114 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #fff;
+    color: #000;
+}
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    border-bottom: 1px solid #ddd;
+}
+.header nav a {
+    margin: 0 10px;
+    text-decoration: none;
+    color: #000;
+}
+.container {
+    display: flex;
+    padding: 20px;
+}
+.left-column {
+    flex: 1;
+    padding-right: 20px;
+}
+.left-column img {
+    width: 100%;
+}
+.right-column {
+    flex: 1;
+}
+.breadcrumb {
+    font-size: 14px;
+    color: #666;
+    margin-bottom: 10px;
+}
+.breadcrumb a {
+    text-decoration: none;
+    color: #666;
+}
+.product-title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+.product-price {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+.product-installments {
+    font-size: 14px;
+    color: #666;
+    margin-bottom: 10px;
+}
+.product-color {
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+.color-options img {
+    width: 50px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+.size-options {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+}
+.size-options button {
+    border: 1px solid #000;
+    background-color: #fff;
+    padding: 10px;
+    margin: 5px;
+    cursor: pointer;
+}
+.size-guide {
+    font-size: 14px;
+    color: #666;
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+}
+.size-guide i {
+    margin-right: 5px;
+}
+.add-to-cart {
+    background-color: #000;
+    color: #fff;
+    padding: 15px;
+    text-align: center;
+    cursor: pointer;
+    margin-bottom: 20px;
+}
+.delivery-info {
+    font-size: 14px;
+    color: #666;
+    margin-bottom: 20px;
+}
+.product-details {
+    margin-top: 20px;
+}
+.product-details h3 {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+.product-details p {
+    font-size: 14px;
+    color: #666;
+    margin-bottom: 10px;
+}
